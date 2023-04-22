@@ -1,0 +1,114 @@
+*{
+    font-family: 'Gluten', cursive;
+}
+
+:root{
+    --color-gh: #333;
+    --color-lk: #0e76a8;
+}
+
+header .logo{
+    width: 10em;
+}
+
+#fondo{
+    height: 100%;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.collapse{
+    display: flex;
+    justify-content: end;
+}
+
+#myinfo{
+    width: 80%;
+    height: 20em;
+    margin: 0 auto;
+}
+
+section .card img{
+    height: 28em;
+}
+
+main .card{
+    transition: all 0.4s;
+}
+
+main .card:hover{
+    box-shadow: -1px 12px 30px 0px rgba(146,139,230,0.75);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+main .card a{
+    transform: translate(0em,0.2em);
+}
+
+.container{
+    padding: 5em 0;
+}
+
+#fork .forkeos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+#fork .forkeos a{
+    background-color: #212429;
+    padding: 0.7em;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+    color: #fff;
+    width: 30%;
+    margin: 0 0.3em;
+
+}
+
+#fork .forkeos a:hover{
+    background-color: #111214;
+}
+
+
+footer{
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sociales a{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0px 5em;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sociales a:hover{
+    background: transparent;
+    transform: translateY(-0.3em);
+}
+
+.sociales .gh:hover{
+    color: var(--color-tw);
+}
+
+.sociales .lk:hover{
+    color: var(--color-lk);
+}
